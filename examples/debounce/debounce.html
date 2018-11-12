@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Debounce Example</title>
+    <style>
+        html, body {
+            padding: 0;
+            margin: 0;
+        }
+        #mainDiv {
+            position: absolute;
+            height: auto;
+            width: 50%;
+            margin: 0 auto;
+            top: 10%;
+            left: 25%;
+            border-radius: 5px;
+        }
+        #input {
+            width: 100%;
+            height: 30px;;
+            background-color: rgb(255, 255, 255);
+            font-size: 20px;
+        }
+        #statusDiv div {
+            display: block;
+            font-weight: bold;
+            background-color: aquamarine;
+            margin: 10px 0 5px 0;
+        }
+        #statusDiv {
+            background-color: rgb(176, 252, 227);
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="mainDiv">
+        <input type="text" id="input">
+        <div id="statusDiv">
+            <div>Status: </div>
+        </div>
+    </div>
+    <script src="/scripts/util.js"></script>
+    <script src="/examples/debounce/debounce.js"></script>
+</body>
+
+</html>
