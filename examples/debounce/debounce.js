@@ -12,7 +12,7 @@ window.onload = function () {
     }
 
     function onCompleteTyping() {
-        statusDiv.append('completed');
+        statusDiv.append('completed typing: ' + input.value);
         statusDiv.appendChild(document.createElement('br'));
         statusDiv.appendChild(document.createElement('br'));
     }
